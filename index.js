@@ -1,6 +1,13 @@
 tailwind.config = {
 	darkMode: "class",
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				logo: {
+					700: "#1C59AE",
+					800: "#114a9a",
+				},
+			},
+		},
 	},
 };
